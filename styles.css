@@ -1,0 +1,72 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .info img {
+            max-width: 200px;
+            height: auto;
+            display: inline;
+            margin: 10px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.column {
+    flex: 0 0 auto;
+    margin: 0 10px; /* Adjust as needed */
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+    display: block;
+}
+/* Basic button styling */
+.prev-next-button {
+    background-color: #007bff; /* Change to your desired color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.prev-next-button:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}
+
+/* Optional: Add more specific styles for previous and next buttons */
+.prev-button {
+    margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.next-button {
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
